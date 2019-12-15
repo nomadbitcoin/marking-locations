@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f87bcafeba28400d986563aa46addd14 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f87bcafeba28400d986563aa46addd14" ></div>
+        
+</body>
+<script>    
+    
+            var map_f87bcafeba28400d986563aa46addd14 = L.map(
+                "map_f87bcafeba28400d986563aa46addd14",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6f505c67a1b34b429fe1dfc7aad3b0af = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+            var marker_1c20ad5521614aceb76ad4f2b91408e9 = L.marker(
+                [51.7337907, -1.3498913],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_450ce5763e5d4ff688c36b38b4a29ff4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c62f87811bd440fbb06084ca27a53b31 = $(`<div id="html_c62f87811bd440fbb06084ca27a53b31" style="width: 100.0%; height: 100.0%;">Dream League Soccer</div>`)[0];
+            popup_450ce5763e5d4ff688c36b38b4a29ff4.setContent(html_c62f87811bd440fbb06084ca27a53b31);
+        
+
+        marker_1c20ad5521614aceb76ad4f2b91408e9.bindPopup(popup_450ce5763e5d4ff688c36b38b4a29ff4)
+        ;
+
+        
+    
+    
+            var marker_d5c04fb876ff44dc95b11f1c61afe6d0 = L.marker(
+                [46.9946236, 6.8725503],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_31b881ffad5d49f1acb15373b0d21bbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62797105ab2344cea5fedcc0f640e180 = $(`<div id="html_62797105ab2344cea5fedcc0f640e180" style="width: 100.0%; height: 100.0%;">Football Strike - Multiplayer Soccer</div>`)[0];
+            popup_31b881ffad5d49f1acb15373b0d21bbc.setContent(html_62797105ab2344cea5fedcc0f640e180);
+        
+
+        marker_d5c04fb876ff44dc95b11f1c61afe6d0.bindPopup(popup_31b881ffad5d49f1acb15373b0d21bbc)
+        ;
+
+        
+    
+    
+            var marker_6c853b99dc314f2d89110929f460ebc8 = L.marker(
+                [51.7337907, -1.3498913],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_fa51cb04be7c4a17a2a7dfa91aaf1280 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_674b056881ca49c1990e913421f2c847 = $(`<div id="html_674b056881ca49c1990e913421f2c847" style="width: 100.0%; height: 100.0%;">Score! Hero</div>`)[0];
+            popup_fa51cb04be7c4a17a2a7dfa91aaf1280.setContent(html_674b056881ca49c1990e913421f2c847);
+        
+
+        marker_6c853b99dc314f2d89110929f460ebc8.bindPopup(popup_fa51cb04be7c4a17a2a7dfa91aaf1280)
+        ;
+
+        
+    
+    
+            var marker_3e51000e04e747349ef69ddfa1618654 = L.marker(
+                [52.5321581, 13.4248382],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_35c824240a6645daa6193cfd68cd0721 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_653a81108bc846768084b3c13a349c36 = $(`<div id="html_653a81108bc846768084b3c13a349c36" style="width: 100.0%; height: 100.0%;">Onefootball - Soccer Scores</div>`)[0];
+            popup_35c824240a6645daa6193cfd68cd0721.setContent(html_653a81108bc846768084b3c13a349c36);
+        
+
+        marker_3e51000e04e747349ef69ddfa1618654.bindPopup(popup_35c824240a6645daa6193cfd68cd0721)
+        ;
+
+        
+    
+    
+            var marker_6374ab5c2b57453b8c400883b1958846 = L.marker(
+                [40.03586, 116.3379553],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_0b183d2ce29a42ab92d987e17215e2bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_364a602dc4444aed92af090c33495c0c = $(`<div id="html_364a602dc4444aed92af090c33495c0c" style="width: 100.0%; height: 100.0%;">Winner Soccer Evo Elite</div>`)[0];
+            popup_0b183d2ce29a42ab92d987e17215e2bc.setContent(html_364a602dc4444aed92af090c33495c0c);
+        
+
+        marker_6374ab5c2b57453b8c400883b1958846.bindPopup(popup_0b183d2ce29a42ab92d987e17215e2bc)
+        ;
+
+        
+    
+    
+            var marker_fca28db4caf54ab48ae1ae74e46c010f = L.marker(
+                [51.5218909, -0.1037873],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_8b5af9f1d9cd47219e61d4d4190a12fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a90f9534135843f3af154b8ab280c84c = $(`<div id="html_a90f9534135843f3af154b8ab280c84c" style="width: 100.0%; height: 100.0%;">Head Ball 2</div>`)[0];
+            popup_8b5af9f1d9cd47219e61d4d4190a12fa.setContent(html_a90f9534135843f3af154b8ab280c84c);
+        
+
+        marker_fca28db4caf54ab48ae1ae74e46c010f.bindPopup(popup_8b5af9f1d9cd47219e61d4d4190a12fa)
+        ;
+
+        
+    
+    
+            var marker_1fb75442af3f41d0aaaab8e6f384cc39 = L.marker(
+                [48.6975289, 21.2333912],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_5f469defe29a4d8a875eeba276b24cc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea1dbc1956924a279c5fe1267533f88d = $(`<div id="html_ea1dbc1956924a279c5fe1267533f88d" style="width: 100.0%; height: 100.0%;">Soccer Cup 2020</div>`)[0];
+            popup_5f469defe29a4d8a875eeba276b24cc7.setContent(html_ea1dbc1956924a279c5fe1267533f88d);
+        
+
+        marker_1fb75442af3f41d0aaaab8e6f384cc39.bindPopup(popup_5f469defe29a4d8a875eeba276b24cc7)
+        ;
+
+        
+    
+    
+            var marker_b01e5555ac8a47778ad40df80d18739f = L.marker(
+                [46.2050242, 6.1090692],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_08ba648681de455d8aaf23da59ccc189 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eef4808f25dd46db958e595002b77cc7 = $(`<div id="html_eef4808f25dd46db958e595002b77cc7" style="width: 100.0%; height: 100.0%;">FIFA Soccer</div>`)[0];
+            popup_08ba648681de455d8aaf23da59ccc189.setContent(html_eef4808f25dd46db958e595002b77cc7);
+        
+
+        marker_b01e5555ac8a47778ad40df80d18739f.bindPopup(popup_08ba648681de455d8aaf23da59ccc189)
+        ;
+
+        
+    
+    
+            var marker_dce3af082927409a834e359f57820a8f = L.marker(
+                [37.3683855, -5.9883322],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_338f141233304cfd80563997eeb7e3dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56f9e66c7b914d78ac693bb65f2da5d7 = $(`<div id="html_56f9e66c7b914d78ac693bb65f2da5d7" style="width: 100.0%; height: 100.0%;">Soccer Star 2020 Top Leagues: Play the SOCCER game</div>`)[0];
+            popup_338f141233304cfd80563997eeb7e3dd.setContent(html_56f9e66c7b914d78ac693bb65f2da5d7);
+        
+
+        marker_dce3af082927409a834e359f57820a8f.bindPopup(popup_338f141233304cfd80563997eeb7e3dd)
+        ;
+
+        
+    
+    
+            var marker_79788fff60fd4cfeae0f8e0bcf161eba = L.marker(
+                [-27.1626462, -48.5687697],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_757d7e1a610a4bf68308013ae55852ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3179576b558f411a93f83419c15fd80f = $(`<div id="html_3179576b558f411a93f83419c15fd80f" style="width: 100.0%; height: 100.0%;">Ultimate Soccer - Football</div>`)[0];
+            popup_757d7e1a610a4bf68308013ae55852ec.setContent(html_3179576b558f411a93f83419c15fd80f);
+        
+
+        marker_79788fff60fd4cfeae0f8e0bcf161eba.bindPopup(popup_757d7e1a610a4bf68308013ae55852ec)
+        ;
+
+        
+    
+    
+            var marker_39a58c03de484ce699407a8dbfa78120 = L.marker(
+                [51.5143307, -0.1418826],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_3ff25447bb7b453d8d2339699f373490 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84f03463799f4d61a685c15c4c6c6328 = $(`<div id="html_84f03463799f4d61a685c15c4c6c6328" style="width: 100.0%; height: 100.0%;">Cool Goal!</div>`)[0];
+            popup_3ff25447bb7b453d8d2339699f373490.setContent(html_84f03463799f4d61a685c15c4c6c6328);
+        
+
+        marker_39a58c03de484ce699407a8dbfa78120.bindPopup(popup_3ff25447bb7b453d8d2339699f373490)
+        ;
+
+        
+    
+    
+            var marker_17a726dcf13d4b6fad635376cf0de437 = L.marker(
+                [36.718811, -4.4133067],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_604989fffdbe46839f29577cf71f50a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9dc817714363493886d951b4a5c4239c = $(`<div id="html_9dc817714363493886d951b4a5c4239c" style="width: 100.0%; height: 100.0%;">Shoot Goal - Beach Soccer Game</div>`)[0];
+            popup_604989fffdbe46839f29577cf71f50a3.setContent(html_9dc817714363493886d951b4a5c4239c);
+        
+
+        marker_17a726dcf13d4b6fad635376cf0de437.bindPopup(popup_604989fffdbe46839f29577cf71f50a3)
+        ;
+
+        
+    
+    
+            var marker_39bff42f7f2747799e5e222debcf1714 = L.marker(
+                [35.665261, 139.7291194],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_18ad7709ae294f6698f33f85b80ec073 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21956790707c4a4788c1b3a9c1bd975c = $(`<div id="html_21956790707c4a4788c1b3a9c1bd975c" style="width: 100.0%; height: 100.0%;">eFootball PES 2020</div>`)[0];
+            popup_18ad7709ae294f6698f33f85b80ec073.setContent(html_21956790707c4a4788c1b3a9c1bd975c);
+        
+
+        marker_39bff42f7f2747799e5e222debcf1714.bindPopup(popup_18ad7709ae294f6698f33f85b80ec073)
+        ;
+
+        
+    
+    
+            var marker_3e406e04fc274482ae621659c5b74e5b = L.marker(
+                [48.873153, 2.3264099],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_853d2cce06cd45e18e9ecaa568a6dabc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e70f1b6ead0d470fae7a03949f887f2c = $(`<div id="html_e70f1b6ead0d470fae7a03949f887f2c" style="width: 100.0%; height: 100.0%;">Real Football</div>`)[0];
+            popup_853d2cce06cd45e18e9ecaa568a6dabc.setContent(html_e70f1b6ead0d470fae7a03949f887f2c);
+        
+
+        marker_3e406e04fc274482ae621659c5b74e5b.bindPopup(popup_853d2cce06cd45e18e9ecaa568a6dabc)
+        ;
+
+        
+    
+    
+            var marker_c89c6bcd818040aebe4d63c4ce4365a3 = L.marker(
+                [37.3683855, -5.9883322],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_02502041641f44d18bffd07a45bea680 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6715c74487e24747a6b63e9ab9e33d4e = $(`<div id="html_6715c74487e24747a6b63e9ab9e33d4e" style="width: 100.0%; height: 100.0%;">Soccer Star 2022 World Legend: Soccer game</div>`)[0];
+            popup_02502041641f44d18bffd07a45bea680.setContent(html_6715c74487e24747a6b63e9ab9e33d4e);
+        
+
+        marker_c89c6bcd818040aebe4d63c4ce4365a3.bindPopup(popup_02502041641f44d18bffd07a45bea680)
+        ;
+
+        
+    
+    
+            var marker_b1d716525287404e85b3a503e8d32246 = L.marker(
+                [40.4469432, -3.65275],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_bf2ed619f827481b8363705b6b7de1d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4d9c30d2e464606b4132ee7048e84dc = $(`<div id="html_b4d9c30d2e464606b4132ee7048e84dc" style="width: 100.0%; height: 100.0%;">Head Soccer LaLiga 2019 - Best Soccer Games</div>`)[0];
+            popup_bf2ed619f827481b8363705b6b7de1d6.setContent(html_b4d9c30d2e464606b4132ee7048e84dc);
+        
+
+        marker_b1d716525287404e85b3a503e8d32246.bindPopup(popup_bf2ed619f827481b8363705b6b7de1d6)
+        ;
+
+        
+    
+    
+            var marker_86c1cd0be177487f85d06c80cce8a683 = L.marker(
+                [49.1665672, 16.5732392],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_c98b19e665894ddf84db82ebe1b03ead = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9066186e268a47b8be56cd4e1cd033c1 = $(`<div id="html_9066186e268a47b8be56cd4e1cd033c1" style="width: 100.0%; height: 100.0%;">⚽Puppet Soccer 2014 - Big Head Football 🏆</div>`)[0];
+            popup_c98b19e665894ddf84db82ebe1b03ead.setContent(html_9066186e268a47b8be56cd4e1cd033c1);
+        
+
+        marker_86c1cd0be177487f85d06c80cce8a683.bindPopup(popup_c98b19e665894ddf84db82ebe1b03ead)
+        ;
+
+        
+    
+    
+            var marker_cf2ee9ddbf904f748c512a04a42d83ce = L.marker(
+                [40.03586, 116.3379553],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_721ebf479ebb426abd593ec5fa4c9904 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57b16cbba47f467d913f06a76aa90918 = $(`<div id="html_57b16cbba47f467d913f06a76aa90918" style="width: 100.0%; height: 100.0%;">Winner Soccer Evolution</div>`)[0];
+            popup_721ebf479ebb426abd593ec5fa4c9904.setContent(html_57b16cbba47f467d913f06a76aa90918);
+        
+
+        marker_cf2ee9ddbf904f748c512a04a42d83ce.bindPopup(popup_721ebf479ebb426abd593ec5fa4c9904)
+        ;
+
+        
+    
+    
+            var marker_d8dadad267d9405ebfa4f58c839f3b81 = L.marker(
+                [22.2885726, 114.1923103],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_794539d78939462e9538883bc121b062 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f94006d232694c949ae8c54043c3944a = $(`<div id="html_f94006d232694c949ae8c54043c3944a" style="width: 100.0%; height: 100.0%;">Football Master 2019</div>`)[0];
+            popup_794539d78939462e9538883bc121b062.setContent(html_f94006d232694c949ae8c54043c3944a);
+        
+
+        marker_d8dadad267d9405ebfa4f58c839f3b81.bindPopup(popup_794539d78939462e9538883bc121b062)
+        ;
+
+        
+    
+    
+            var marker_44c544628c6b46558c3d35fd74546121 = L.marker(
+                [31.4380846, 74.2892242],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_982e7cfbba1f4a2ead103dbe54865784 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8a5a95912c94517a79b9427da3c4d9e = $(`<div id="html_f8a5a95912c94517a79b9427da3c4d9e" style="width: 100.0%; height: 100.0%;">Football eLegends - Dream Off! Soccer</div>`)[0];
+            popup_982e7cfbba1f4a2ead103dbe54865784.setContent(html_f8a5a95912c94517a79b9427da3c4d9e);
+        
+
+        marker_44c544628c6b46558c3d35fd74546121.bindPopup(popup_982e7cfbba1f4a2ead103dbe54865784)
+        ;
+
+        
+    
+    
+            var marker_9d44fe0491e14d3bb0cdb9243ef536ac = L.marker(
+                [37.4415146, -122.1608498],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_5430bb7684e2481aa4c4fd86af2cf502 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c738e2e3a7004b46b80fefc21f72ce00 = $(`<div id="html_c738e2e3a7004b46b80fefc21f72ce00" style="width: 100.0%; height: 100.0%;">The Real Juggle - Pro Freestyle Soccer</div>`)[0];
+            popup_5430bb7684e2481aa4c4fd86af2cf502.setContent(html_c738e2e3a7004b46b80fefc21f72ce00);
+        
+
+        marker_9d44fe0491e14d3bb0cdb9243ef536ac.bindPopup(popup_5430bb7684e2481aa4c4fd86af2cf502)
+        ;
+
+        
+    
+    
+            var marker_dce34652984e4f13a55f2bb0e82c5bea = L.marker(
+                [39.978908, 116.3651173],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_8fc112bc116f43849c50893b2b23efb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65b1600f90164fc784ffef8f07a91948 = $(`<div id="html_65b1600f90164fc784ffef8f07a91948" style="width: 100.0%; height: 100.0%;">Top Soccer Manager 2019</div>`)[0];
+            popup_8fc112bc116f43849c50893b2b23efb6.setContent(html_65b1600f90164fc784ffef8f07a91948);
+        
+
+        marker_dce34652984e4f13a55f2bb0e82c5bea.bindPopup(popup_8fc112bc116f43849c50893b2b23efb6)
+        ;
+
+        
+    
+    
+            var marker_42dd9b65eb8f49d3b93d8977574d683e = L.marker(
+                [48.1867761, 13.9952932],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_19bfb2449eb5414f872fa48f720c5e85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3062c260b72648609c489f9327925457 = $(`<div id="html_3062c260b72648609c489f9327925457" style="width: 100.0%; height: 100.0%;">Stickman Soccer 3D</div>`)[0];
+            popup_19bfb2449eb5414f872fa48f720c5e85.setContent(html_3062c260b72648609c489f9327925457);
+        
+
+        marker_42dd9b65eb8f49d3b93d8977574d683e.bindPopup(popup_19bfb2449eb5414f872fa48f720c5e85)
+        ;
+
+        
+    
+    
+            var marker_21ec107173384f7f9bf5e98726838d5d = L.marker(
+                [36.718811, -4.4133067],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_65345b91c0df49bb8252beff3518beb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_912f080aeb0c4284a13b2063bb89d684 = $(`<div id="html_912f080aeb0c4284a13b2063bb89d684" style="width: 100.0%; height: 100.0%;">Shoot Goal ⚽️ Football Stars Soccer Games 2019</div>`)[0];
+            popup_65345b91c0df49bb8252beff3518beb8.setContent(html_912f080aeb0c4284a13b2063bb89d684);
+        
+
+        marker_21ec107173384f7f9bf5e98726838d5d.bindPopup(popup_65345b91c0df49bb8252beff3518beb8)
+        ;
+
+        
+    
+    
+            var marker_729324fd63f94cf2a326282e3058c917 = L.marker(
+                [40.4397346, -3.6808428],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_bf078ff5fe994c79a9934a6d9b4e4126 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a354d919ca04a12b2fdbe295373026c = $(`<div id="html_8a354d919ca04a12b2fdbe295373026c" style="width: 100.0%; height: 100.0%;">2019 Champions Soccer League: Football Tournament</div>`)[0];
+            popup_bf078ff5fe994c79a9934a6d9b4e4126.setContent(html_8a354d919ca04a12b2fdbe295373026c);
+        
+
+        marker_729324fd63f94cf2a326282e3058c917.bindPopup(popup_bf078ff5fe994c79a9934a6d9b4e4126)
+        ;
+
+        
+    
+    
+            var marker_7f370bf488264d2f8b71071bd1ae6f3e = L.marker(
+                [53.6633264, -1.5047725],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_36331aa15ea64841a28dbbc6f27f1ff8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b2b56023d7c4568a3d492d751657e1f = $(`<div id="html_2b2b56023d7c4568a3d492d751657e1f" style="width: 100.0%; height: 100.0%;">New Star Soccer</div>`)[0];
+            popup_36331aa15ea64841a28dbbc6f27f1ff8.setContent(html_2b2b56023d7c4568a3d492d751657e1f);
+        
+
+        marker_7f370bf488264d2f8b71071bd1ae6f3e.bindPopup(popup_36331aa15ea64841a28dbbc6f27f1ff8)
+        ;
+
+        
+    
+    
+            var marker_636394ab756b4a618e69e09dc631326f = L.marker(
+                [51.7337907, -1.3498913],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_d74205028a9d4513a3ed31894cc7a3bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9e57470443741e8806104c02da5468b = $(`<div id="html_c9e57470443741e8806104c02da5468b" style="width: 100.0%; height: 100.0%;">Score! Match</div>`)[0];
+            popup_d74205028a9d4513a3ed31894cc7a3bf.setContent(html_c9e57470443741e8806104c02da5468b);
+        
+
+        marker_636394ab756b4a618e69e09dc631326f.bindPopup(popup_d74205028a9d4513a3ed31894cc7a3bf)
+        ;
+
+        
+    
+    
+            var marker_38d9aed875fe4226a9fbd0353e2e563c = L.marker(
+                [37.5029254, 127.0296323],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_b48d42dcb8be4188bc9d4bf3bfff1644 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c9d3eea389e4444ba784d7982ae8e06 = $(`<div id="html_1c9d3eea389e4444ba784d7982ae8e06" style="width: 100.0%; height: 100.0%;">Extreme Football:3on3 Multiplayer Soccer</div>`)[0];
+            popup_b48d42dcb8be4188bc9d4bf3bfff1644.setContent(html_1c9d3eea389e4444ba784d7982ae8e06);
+        
+
+        marker_38d9aed875fe4226a9fbd0353e2e563c.bindPopup(popup_b48d42dcb8be4188bc9d4bf3bfff1644)
+        ;
+
+        
+    
+    
+            var marker_4bbcabc78e284c8880893bdca9bad1a5 = L.marker(
+                [34.682764, 33.0454175],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_11f7a3dadccc4a37b97af59bca681763 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd998feb7fbc4f888533fb77254df988 = $(`<div id="html_dd998feb7fbc4f888533fb77254df988" style="width: 100.0%; height: 100.0%;">11x11: Soccer Club Manager</div>`)[0];
+            popup_11f7a3dadccc4a37b97af59bca681763.setContent(html_dd998feb7fbc4f888533fb77254df988);
+        
+
+        marker_4bbcabc78e284c8880893bdca9bad1a5.bindPopup(popup_11f7a3dadccc4a37b97af59bca681763)
+        ;
+
+        
+    
+    
+            var marker_b2c10757da0844688944e97a6c599037 = L.marker(
+                [39.8984, 32.7723103],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_310d560e2e4749a89267e4504dc79817 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6065562d4aeb468899c984c485c66a68 = $(`<div id="html_6065562d4aeb468899c984c485c66a68" style="width: 100.0%; height: 100.0%;">Ball Brawl 3D</div>`)[0];
+            popup_310d560e2e4749a89267e4504dc79817.setContent(html_6065562d4aeb468899c984c485c66a68);
+        
+
+        marker_b2c10757da0844688944e97a6c599037.bindPopup(popup_310d560e2e4749a89267e4504dc79817)
+        ;
+
+        
+    
+    
+            var marker_db2a2c5d0937479b9fcaaa851a93c81e = L.marker(
+                [48.1867761, 13.9952932],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_d15aa7127fe543368460afe33d549a01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c999d438552043f7a7ba699038b645a1 = $(`<div id="html_c999d438552043f7a7ba699038b645a1" style="width: 100.0%; height: 100.0%;">Stickman Soccer 2014</div>`)[0];
+            popup_d15aa7127fe543368460afe33d549a01.setContent(html_c999d438552043f7a7ba699038b645a1);
+        
+
+        marker_db2a2c5d0937479b9fcaaa851a93c81e.bindPopup(popup_d15aa7127fe543368460afe33d549a01)
+        ;
+
+        
+    
+    
+            var marker_6af9c111b8a64ecaafcb717401c48352 = L.marker(
+                [48.1867761, 13.9952932],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_9d05ab19cd374a29b2b3a32e456268a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75e1c6f1112f41a3b7b34c7c3b775420 = $(`<div id="html_75e1c6f1112f41a3b7b34c7c3b775420" style="width: 100.0%; height: 100.0%;">Stickman Soccer - Classic</div>`)[0];
+            popup_9d05ab19cd374a29b2b3a32e456268a7.setContent(html_75e1c6f1112f41a3b7b34c7c3b775420);
+        
+
+        marker_6af9c111b8a64ecaafcb717401c48352.bindPopup(popup_9d05ab19cd374a29b2b3a32e456268a7)
+        ;
+
+        
+    
+    
+            var marker_4a5e7f6d77634e6081cf5ff42b02e7ea = L.marker(
+                [38.4783518, -0.7960036],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_9e2b8cfded704434955ec816bcfcec5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13ddec134cea47bba66f9c46d4c52dde = $(`<div id="html_13ddec134cea47bba66f9c46d4c52dde" style="width: 100.0%; height: 100.0%;">Be A Legend: Real Soccer Champions Game</div>`)[0];
+            popup_9e2b8cfded704434955ec816bcfcec5d.setContent(html_13ddec134cea47bba66f9c46d4c52dde);
+        
+
+        marker_4a5e7f6d77634e6081cf5ff42b02e7ea.bindPopup(popup_9e2b8cfded704434955ec816bcfcec5d)
+        ;
+
+        
+    
+    
+            var marker_91022da7cba3478db936348d369d4493 = L.marker(
+                [41.0586759, 28.9905264],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_12cdab4edfc94d7188baee3a9aeffeb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61d13f5d0ba9447783ca93d6ed8c0185 = $(`<div id="html_61d13f5d0ba9447783ca93d6ed8c0185" style="width: 100.0%; height: 100.0%;">Flick Shoot 2</div>`)[0];
+            popup_12cdab4edfc94d7188baee3a9aeffeb0.setContent(html_61d13f5d0ba9447783ca93d6ed8c0185);
+        
+
+        marker_91022da7cba3478db936348d369d4493.bindPopup(popup_12cdab4edfc94d7188baee3a9aeffeb0)
+        ;
+
+        
+    
+    
+            var marker_b320bbe4b46143a899d7b12c04202343 = L.marker(
+                [50.401699, 30.252512],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_0d357e602fa643e38ce0bd1781f4d688 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c89b723e874545519490fe226ae28142 = $(`<div id="html_c89b723e874545519490fe226ae28142" style="width: 100.0%; height: 100.0%;">FreeKick Soccer 2019</div>`)[0];
+            popup_0d357e602fa643e38ce0bd1781f4d688.setContent(html_c89b723e874545519490fe226ae28142);
+        
+
+        marker_b320bbe4b46143a899d7b12c04202343.bindPopup(popup_0d357e602fa643e38ce0bd1781f4d688)
+        ;
+
+        
+    
+    
+            var marker_d5f4bc7aec38437dac888b883cb03e34 = L.marker(
+                [32.1730996, 34.792984],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_e6764834695b4accbc8c72cc73468abd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc918a2df22a4f0a8c355841db9392f1 = $(`<div id="html_fc918a2df22a4f0a8c355841db9392f1" style="width: 100.0%; height: 100.0%;">Top Scorer 2</div>`)[0];
+            popup_e6764834695b4accbc8c72cc73468abd.setContent(html_fc918a2df22a4f0a8c355841db9392f1);
+        
+
+        marker_d5f4bc7aec38437dac888b883cb03e34.bindPopup(popup_e6764834695b4accbc8c72cc73468abd)
+        ;
+
+        
+    
+    
+            var marker_87f3ea467c054eb6977cde5310dcc586 = L.marker(
+                [35.665261, 139.7291194],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_aa6bb265c29949bf860e8233dc32dbef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_401621b69cfe4c6eb701af7fb5f9f517 = $(`<div id="html_401621b69cfe4c6eb701af7fb5f9f517" style="width: 100.0%; height: 100.0%;">PES CLUB MANAGER</div>`)[0];
+            popup_aa6bb265c29949bf860e8233dc32dbef.setContent(html_401621b69cfe4c6eb701af7fb5f9f517);
+        
+
+        marker_87f3ea467c054eb6977cde5310dcc586.bindPopup(popup_aa6bb265c29949bf860e8233dc32dbef)
+        ;
+
+        
+    
+    
+            var marker_434182b62c6947bf95c89b148f243a0f = L.marker(
+                [57.7041597, 11.9657288],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_4f34fa1b85e04d9fbfd9f9838b9fa249 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_720ac15ebef0430fa96b38591b830501 = $(`<div id="html_720ac15ebef0430fa96b38591b830501" style="width: 100.0%; height: 100.0%;">SkillTwins: Soccer Game - Soccer Skills</div>`)[0];
+            popup_4f34fa1b85e04d9fbfd9f9838b9fa249.setContent(html_720ac15ebef0430fa96b38591b830501);
+        
+
+        marker_434182b62c6947bf95c89b148f243a0f.bindPopup(popup_4f34fa1b85e04d9fbfd9f9838b9fa249)
+        ;
+
+        
+    
+    
+            var marker_7ad6085c3ea2475d917b3a635597f4ae = L.marker(
+                [33.4529769, 126.5705075],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_c5e215e01b604550a3f557f37e6c3475 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f385304fb9ba49f0aed8907001274224 = $(`<div id="html_f385304fb9ba49f0aed8907001274224" style="width: 100.0%; height: 100.0%;">Head Soccer</div>`)[0];
+            popup_c5e215e01b604550a3f557f37e6c3475.setContent(html_f385304fb9ba49f0aed8907001274224);
+        
+
+        marker_7ad6085c3ea2475d917b3a635597f4ae.bindPopup(popup_c5e215e01b604550a3f557f37e6c3475)
+        ;
+
+        
+    
+    
+            var marker_4675595abfba42d5b4b9172678f5950b = L.marker(
+                [52.3642175, 4.9359262],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_6543e34cf97541b1878afe88cb87e2bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b62785a04041473d9fd32a18011f46f9 = $(`<div id="html_b62785a04041473d9fd32a18011f46f9" style="width: 100.0%; height: 100.0%;">Football Live Scores</div>`)[0];
+            popup_6543e34cf97541b1878afe88cb87e2bf.setContent(html_b62785a04041473d9fd32a18011f46f9);
+        
+
+        marker_4675595abfba42d5b4b9172678f5950b.bindPopup(popup_6543e34cf97541b1878afe88cb87e2bf)
+        ;
+
+        
+    
+    
+            var marker_4174f3f67f924641a829f5c3dd87b7da = L.marker(
+                [41.4833715, 2.0498863],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_5e09847c4f304ff79af4bd15d3de933a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d2f3453d54e435b8abf7b5c64daffbb = $(`<div id="html_3d2f3453d54e435b8abf7b5c64daffbb" style="width: 100.0%; height: 100.0%;">Final kick 2020 Best Online football penalty game</div>`)[0];
+            popup_5e09847c4f304ff79af4bd15d3de933a.setContent(html_3d2f3453d54e435b8abf7b5c64daffbb);
+        
+
+        marker_4174f3f67f924641a829f5c3dd87b7da.bindPopup(popup_5e09847c4f304ff79af4bd15d3de933a)
+        ;
+
+        
+    
+    
+            var marker_e9eb3e57220d4750a4db43a201663fd3 = L.marker(
+                [55.6771757, 12.5689603],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_471c065421fa4d56aa129a29810942b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23a92cb1a0204750b5c648f11c4f567d = $(`<div id="html_23a92cb1a0204750b5c648f11c4f567d" style="width: 100.0%; height: 100.0%;">Football Management Ultra 2020 - Manager Game</div>`)[0];
+            popup_471c065421fa4d56aa129a29810942b6.setContent(html_23a92cb1a0204750b5c648f11c4f567d);
+        
+
+        marker_e9eb3e57220d4750a4db43a201663fd3.bindPopup(popup_471c065421fa4d56aa129a29810942b6)
+        ;
+
+        
+    
+    
+            var marker_38a48a361d6d468daa8fd390a02881d4 = L.marker(
+                [49.1665672, 16.5732392],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_4e08e17c92e44b5389600c3545a83f09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0a35ce64906421f9fd56f6a23cc0b05 = $(`<div id="html_a0a35ce64906421f9fd56f6a23cc0b05" style="width: 100.0%; height: 100.0%;">⚽ Puppet Soccer Champions – League ❤️🏆</div>`)[0];
+            popup_4e08e17c92e44b5389600c3545a83f09.setContent(html_a0a35ce64906421f9fd56f6a23cc0b05);
+        
+
+        marker_38a48a361d6d468daa8fd390a02881d4.bindPopup(popup_4e08e17c92e44b5389600c3545a83f09)
+        ;
+
+        
+    
+    
+            var marker_e28380af78154a569bce4020b104016c = L.marker(
+                [51.5079727, -0.1408237],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_4461e7092d36446c83f7dd9a56e4b743 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e4e2f3be49346a4aeffd88b61fab8f2 = $(`<div id="html_1e4e2f3be49346a4aeffd88b61fab8f2" style="width: 100.0%; height: 100.0%;">PROBET: Football (soccer) betting tips</div>`)[0];
+            popup_4461e7092d36446c83f7dd9a56e4b743.setContent(html_1e4e2f3be49346a4aeffd88b61fab8f2);
+        
+
+        marker_e28380af78154a569bce4020b104016c.bindPopup(popup_4461e7092d36446c83f7dd9a56e4b743)
+        ;
+
+        
+    
+    
+            var marker_be825c2be0984eae8c3f509d91effcbd = L.marker(
+                [52.0615412, 4.4833222],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_cfabf77300e34175bf620ab744d7fc78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3cab7aa2e4e1490ea14142d9c84153b7 = $(`<div id="html_3cab7aa2e4e1490ea14142d9c84153b7" style="width: 100.0%; height: 100.0%;">Online Soccer Manager (OSM) - 2019/2020</div>`)[0];
+            popup_cfabf77300e34175bf620ab744d7fc78.setContent(html_3cab7aa2e4e1490ea14142d9c84153b7);
+        
+
+        marker_be825c2be0984eae8c3f509d91effcbd.bindPopup(popup_cfabf77300e34175bf620ab744d7fc78)
+        ;
+
+        
+    
+    
+            var marker_87f1bc8c69234bb586c0ddc8aedd4866 = L.marker(
+                [60.2947195, 5.2629017],
+                {}
+            ).addTo(map_f87bcafeba28400d986563aa46addd14);
+        
+    
+        var popup_c49e1121fe794b098db15c9479c9574c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45bbe1f9f73542b9b1dc7a3dc014dad4 = $(`<div id="html_45bbe1f9f73542b9b1dc7a3dc014dad4" style="width: 100.0%; height: 100.0%;">Soccer Scores - FotMob</div>`)[0];
+            popup_c49e1121fe794b098db15c9479c9574c.setContent(html_45bbe1f9f73542b9b1dc7a3dc014dad4);
+        
+
+        marker_87f1bc8c69234bb586c0ddc8aedd4866.bindPopup(popup_c49e1121fe794b098db15c9479c9574c)
+        ;
+
+        
+    
+</script>
